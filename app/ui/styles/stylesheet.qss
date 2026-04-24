@@ -1,0 +1,405 @@
+QMainWindow {
+    background-color: #0b1628;
+}
+
+QWidget {
+    background-color: #101b2f;
+    color: #e8f0ff;
+    font-family: "Bahnschrift", "Trebuchet MS", sans-serif;
+    font-size: 13px;
+}
+
+QFrame#Sidebar {
+    background-color: #0a1526;
+    border-right: 1px solid #244162;
+}
+
+QLabel#SidebarBrand {
+    color: #cfe6ff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+    border: 1px solid #234b74;
+    border-radius: 9px;
+    background-color: #10213a;
+}
+
+QPushButton#SidebarNavButton {
+    text-align: left;
+    padding: 10px 10px;
+    border-radius: 9px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #b8cae4;
+    font-weight: 600;
+}
+
+QPushButton#SidebarNavButton:hover {
+    border: 1px solid #2e5c86;
+    background-color: #132742;
+    color: #edf6ff;
+}
+
+QPushButton#SidebarNavButton:checked {
+    border: 1px solid #00a8ff;
+    background-color: #133152;
+    color: #eff9ff;
+}
+
+QPushButton#SidebarToggle,
+QPushButton#SidebarExit {
+    text-align: left;
+    padding: 9px 10px;
+    border-radius: 8px;
+    border: 1px solid #234462;
+    background-color: #10213a;
+    color: #d5e5fa;
+}
+
+QPushButton#SidebarToggle:checked {
+    border: 1px solid #00d9ff;
+    background-color: #14365a;
+}
+
+QFrame#Topbar {
+    background-color: #162b46;
+    border-bottom: 1px solid #2b4e72;
+}
+
+QLabel#TopbarBrand {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+QComboBox#TopbarFilter,
+QLineEdit#TopbarSearch {
+    min-height: 34px;
+    background-color: #10233b;
+    border: 1px solid #2d587f;
+    border-radius: 8px;
+    color: #dfefff;
+    padding: 6px 10px;
+}
+
+QComboBox#TopbarFilter {
+    min-width: 128px;
+    padding-right: 28px;
+}
+
+QComboBox#TopbarFilter::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 22px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox#TopbarFilter:on,
+QComboBox#TopbarFilter:focus,
+QLineEdit#TopbarSearch:focus {
+    border: 1px solid #3ca4f0;
+}
+
+QPushButton#TopbarIconButton {
+    min-width: 34px;
+    min-height: 34px;
+    max-width: 34px;
+    border-radius: 17px;
+    border: 1px solid #355f85;
+    background-color: #12314f;
+    color: #89dbff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+}
+
+QPushButton#TopbarIconButton:hover {
+    border: 1px solid #3ca4f0;
+    background-color: #1a3c5e;
+}
+
+QDateEdit#TopbarDateEdit {
+    min-height: 34px;
+    background-color: #10233b;
+    border: 1px solid #2d587f;
+    border-radius: 8px;
+    color: #dfefff;
+    padding: 6px 8px;
+}
+
+QDateEdit#TopbarDateEdit:focus {
+    border: 1px solid #3ca4f0;
+}
+
+QDateEdit#TopbarDateEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border: none;
+    background: transparent;
+}
+
+QLabel#TopbarFilterLabel {
+    color: #8ab8e0;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 0px 2px;
+}
+
+QFrame#DateErrorBar {
+    background-color: #3a1a0e;
+    border-bottom: 1px solid #c0521a;
+}
+
+QLabel#DateErrorLabel {
+    color: #ffb680;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+QWidget#TopbarUserHost {
+    border: 1px solid #355f85;
+    border-radius: 10px;
+    background-color: #113051;
+}
+
+QLabel#TopbarAvatar {
+    color: #89dbff;
+    font-size: 14px;
+}
+
+QLabel#TopbarUserName {
+    color: #e9f5ff;
+    font-weight: 600;
+}
+
+QLabel#AppTitle,
+QLabel#DashboardHeroTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f7fbff;
+}
+
+QLabel#DashboardHeroSubtitle,
+QLabel#DashMuted {
+    color: #93acc9;
+}
+
+QFrame#KpiCard,
+QFrame#DashCard,
+QFrame#DashActionsBar,
+QFrame#DashFooter,
+QFrame#DueMiniCard {
+    background-color: #162840;
+    border: 1px solid #294a6b;
+    border-radius: 12px;
+}
+
+QLabel#KpiVariation {
+    color: #7fd9ff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+QLabel#KpiTitle {
+    color: #a5bdd8;
+    font-size: 11px;
+}
+
+QLabel#KpiValue {
+    color: #f4f9ff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+QLabel#DashSectionTitle {
+    color: #d9e9ff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QLabel#DashLegend {
+    color: #8ba7c8;
+    font-size: 10px;
+}
+
+QLabel#DashTaxRow {
+    color: #d8e8fc;
+    font-size: 12px;
+}
+
+QLabel#DashTotal {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 6px;
+}
+
+QLabel#DashStatusWarning {
+    color: #ffbc4b;
+    font-weight: 700;
+}
+
+QLabel#DashStatusDanger {
+    color: #ff5c5c;
+    font-weight: 700;
+}
+
+QLabel#DashStatusOk {
+    color: #1ef886;
+    font-weight: 700;
+}
+
+QLabel#DashApuracaoTipo {
+    color: #7fb4e0;
+    font-size: 10px;
+    font-style: italic;
+    padding: 2px 0px 4px 0px;
+}
+
+QLabel#DueStatusAberto {
+    color: #ffbc4b;
+    font-size: 11px;
+}
+
+QLabel#DueStatusVencido {
+    color: #ff5c5c;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+QLabel#DueStatusPago {
+    color: #1ef886;
+    font-size: 11px;
+}
+
+QLabel#DueStatusCancelado {
+    color: #7898b4;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+QLabel#DueStatusNaoAplicavel {
+    color: #556e88;
+    font-size: 11px;
+    font-style: italic;
+}
+
+QLabel#DueTitle {
+    color: #ddedff;
+    font-weight: 600;
+}
+
+QTableWidget {
+    background-color: #111f33;
+    border: 1px solid #2a4764;
+    gridline-color: #203a54;
+    alternate-background-color: #15263c;
+    selection-background-color: #23466b;
+    selection-color: #ffffff;
+    border-radius: 8px;
+}
+
+QHeaderView::section {
+    background-color: #17304e;
+    color: #d7eaff;
+    border: 0;
+    border-right: 1px solid #2f5478;
+    border-bottom: 1px solid #2f5478;
+    padding: 8px;
+    font-weight: 700;
+}
+
+QPushButton#DashActionPrimary {
+    background-color: #0f8f73;
+    border: 1px solid #28c3a2;
+    border-radius: 9px;
+    color: #ffffff;
+    min-height: 34px;
+    padding: 9px 14px;
+    font-weight: 700;
+}
+
+QPushButton#DashActionPrimary:hover {
+    background-color: #11a382;
+    border: 1px solid #47d4b7;
+}
+
+QPushButton#DashActionSecondary,
+QPushButton#DashTinyButton,
+QPushButton,
+QPushButton#primaryButton {
+    background-color: #163356;
+    border: 1px solid #356287;
+    border-radius: 8px;
+    color: #e7f2ff;
+    min-height: 34px;
+    padding: 8px 12px;
+}
+
+QPushButton#DashTinyButton {
+    min-height: 30px;
+}
+
+QPushButton#DashActionSecondary:hover,
+QPushButton#DashTinyButton:hover,
+QPushButton:hover {
+    border: 1px solid #00a8ff;
+    background-color: #1f4267;
+}
+
+QComboBox,
+QLineEdit,
+QDateEdit,
+QTextEdit {
+    background-color: #10223a;
+    border: 1px solid #2a4d70;
+    border-radius: 7px;
+    min-height: 34px;
+    padding: 7px 10px;
+    color: #e7edf7;
+}
+
+QPlainTextEdit {
+    background-color: #10223a;
+    border: 1px solid #2a4d70;
+    border-radius: 7px;
+    padding: 8px 10px;
+    color: #e7edf7;
+}
+
+QComboBox:focus,
+QLineEdit:focus,
+QDateEdit:focus,
+QTextEdit:focus {
+    border: 1px solid #00a8ff;
+}
+
+QGroupBox {
+    border: 1px solid #2a4a6d;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 6px;
+    color: #c8d9ef;
+}
+
+QPushButton:disabled {
+    color: #7b8da6;
+    border-color: #314965;
+    background-color: #17283f;
+}
+
+QStatusBar {
+    background-color: #162a42;
+    border-top: 1px solid #2a4a6d;
+}
